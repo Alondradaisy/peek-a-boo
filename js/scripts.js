@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("p").click(function() {
-    $("img").show();
+    $("giraffe-showing").show();
+    $("giraffe-hidden").hide();
   });
 });
